@@ -1,6 +1,9 @@
 # hse22_project
 project Z-DNA prediction
 
+# Google colab
+https://colab.research.google.com/drive/11b1BL_f25FrO5hvJILbK9jBONOEhGlox?usp=sharing 
+
 # Описание выбранных геномов
 
 |*Taxon*|Ascomycetes|||||
@@ -15,4 +18,7 @@ project Z-DNA prediction
 |Naumovozyma dairenensis CBS 421|  Chromosome|13,5276|34,1768|11|GCA_000227115.2|  
 
 Все выбранные геномы имеют уровень сборки Chromosome (как рекомендовано в задании), не очень большой размер, а также GC% около 30-40%.
-Все данные находятся на Google Drive по [ссылке](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing).  
+Все данные находятся на Google Drive по [ссылке](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing).    
+
+# Анализ аннотированных генов
+
