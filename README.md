@@ -20,5 +20,15 @@ https://colab.research.google.com/drive/11b1BL_f25FrO5hvJILbK9jBONOEhGlox?usp=sh
 Все выбранные геномы имеют уровень сборки Chromosome (как рекомендовано в задании), не очень большой размер, а также GC% около 30-40%.
 Все данные находятся на Google Drive по [ссылке](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing).    
 
-# Анализ аннотированных генов
+# Анализ аннотированных генов  
+
+|***Species***|***Length***|***Annotated genes***|***Annotated genes %***|***Exons %***|
+|---|---|---|---|---|
+|Saccharomyces arboricola H-6| 11558863 | 5477786 | 0.47390353186122197 | 0.47390353186122197|
+|Saccharomyces eubayanus| 11703647 | 8107585 | 0.6927400493196694 | 0.6896107683357162|
+|Saccharomyces paradoxus| 12092683 | 8443702 | 0.6982488501517818 | 0.6940445722425701|
+|Naumovozyma castellii CBS 4309| 11219539 | 8391917 | 0.7479734238634939 | 0.7439753986326889|
+|Naumovozyma dairenensis CBS 421| 13527580 | 8691117 | 0.6424738940741803 | 0.6390060897810251|
+
+
 
