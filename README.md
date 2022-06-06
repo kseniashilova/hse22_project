@@ -5,7 +5,7 @@ project Z-DNA prediction
 
 |*Taxon*|Ascomycetes|||||
 |:---|:---|---|---|---|---|
-|***Genus***|**Saccharomyces**| **Naumovozyma **||||
+|***Genus***|**Saccharomyces**| **Naumovozyma**||||
 |||||||
 |***Species***|***Level***|***Size(Mb)***|***GC%***|***Scaffolds***|***Assembly***|
 |Saccharomyces arboricola H-6| Chromosome|11,6195|38,851|35|GCA_000292725.1|
