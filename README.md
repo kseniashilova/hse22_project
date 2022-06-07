@@ -89,3 +89,8 @@ def get_gene_coords(file_name):
  ### Затем, в гугл колабе объединяем пересекающиеся участки Z-DNA с помощью утилиты bedtools merge
  
 MERGED_\*.bed файлы находятся в [папке на гугл диске](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing)
+
+# Ассоциация предсказанных участков с генами
+С помощью ```bedtools slop``` создаем новые *_slop.bed файлы в [папке на гугл диске](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing)    
+
+С помощью ```bedtools intersect``` создаем новые INTERSECTION_\*.bed файлы в [папке на гугл диске](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing)
