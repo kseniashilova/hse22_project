@@ -60,3 +60,14 @@ def get_gene_coords(file_name):
  'NCAS_0A00140': [7200, 10586],  
  ...}
   ```
+# Предсказание участков Z-DNA
+Количество предсказанных zhunt участков, их суммарная длина и средняя длина предсказанного участка Z-DNA:  
+|***Species***|***Amount***|***Overal length***|***Mean length***|
+|---|---|---|---|
+|Saccharomyces arboricola H-6| 7437 | 76850 | 10.33 |
+|Saccharomyces eubayanus| 10197 | 105374 | 10.33 |
+|Saccharomyces paradoxus| 6920 | 69898 | 10.10 |
+|Naumovozyma castellii CBS 4309| 3231 | 32900 | 10.18 |
+|Naumovozyma dairenensis CBS 421| 4617| 49046 | 10.62|
+
+Файлы с предсказанием Z-DNA сохранены как текстовые файлы в [папке на гугл диске](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing)
