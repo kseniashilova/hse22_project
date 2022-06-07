@@ -30,5 +30,33 @@ https://colab.research.google.com/drive/11b1BL_f25FrO5hvJILbK9jBONOEhGlox?usp=sh
 |Naumovozyma castellii CBS 4309| 11219539 | 8391917 | 0.7479734238634939 | 0.7439753986326889|
 |Naumovozyma dairenensis CBS 421| 13527580 | 8691117 | 0.6424738940741803 | 0.6390060897810251|
 
-
-
+### Получение координат аннотированных генов
+``` python
+def get_gene_coords(file_name):
+  genes = {} #словарь
+  file1 = open(file_name, "r")
+  sum1 = 0
+  while True:
+      line = file1.readline()
+      if not line:
+          break
+      if ('RefSeq	gene' in line) or ('Genbank	gene' in line):
+        stop = int(line.strip().split('\t')[4])
+        start = int(line.strip().split('\t')[3])
+        gene_id = ((line.strip().split('gene_id')[1]).split(';')[0]).replace('\"', '').replace(' ', '')
+        genes[gene_id] = [start, stop]
+      
+  file1.close
+  return genes
+```
+  
+  Таким образом, с помощью этой функции из файла формата .gtf можно получить словарь с ключом - dene_id и координатами начала и конца гена.  
+  Пример:  
+  ```
+  {'NCAS_0A00100': [351, 1271],  
+ 'NCAS_0A00110': [2003, 2272],  
+ 'NCAS_0A00120': [3020, 3643],  
+ 'NCAS_0A00130': [6067, 6759],  
+ 'NCAS_0A00140': [7200, 10586],  
+ ...}
+  ```
