@@ -62,12 +62,23 @@ def get_gene_coords(file_name):
   ```
 # Предсказание участков Z-DNA
 Количество предсказанных zhunt участков, их суммарная длина и средняя длина предсказанного участка Z-DNA:  
-|***Species***|***Amount***|***Overal length***|***Mean length***|
-|---|---|---|---|
-|Saccharomyces arboricola H-6| 7437 | 76850 | 10.33 |
-|Saccharomyces eubayanus| 10197 | 105374 | 10.33 |
-|Saccharomyces paradoxus| 6920 | 69898 | 10.10 |
-|Naumovozyma castellii CBS 4309| 3231 | 32900 | 10.18 |
-|Naumovozyma dairenensis CBS 421| 4617| 49046 | 10.62|
+|***Species***|***Amount***|***Overal length***|***Mean length***| ***Mean ZH-Score*** |
+|---|---|---|---|---|
+|Saccharomyces arboricola H-6| 7437 | 76850 | 10.33 | 2220.6 |
+|Saccharomyces eubayanus| 10197 | 105374 | 10.33 | 2882.8 |
+|Saccharomyces paradoxus| 6920 | 69898 | 10.10 | 1769.3 |
+|Naumovozyma castellii CBS 4309| 3231 | 32900 | 10.18 | 1491.8 |
+|Naumovozyma dairenensis CBS 421| 4617| 49046 | 10.62| 1558.2 |
 
-Файлы с предсказанием Z-DNA сохранены как текстовые файлы в [папке на гугл диске](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing)
+Файлы с предсказанием Z-DNA сохранены как текстовые файлы в [папке на гугл диске](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing)  
+Гистограммы распределение ZH-Score для пяти геномов:  
+  
+  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/z1.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/z2.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/z3.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/z4.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/z5.png)
+  
+    
+Как видно из гистограмм, ZH-Score распределен со смещением в сторону небольших значений с некоторыми всплесками (небольшим количеством очень больших значений), но по среднему ZH-Score наиболее подверженен образованию Z-DNA является Saccharomyces eubayanus геном.  
