@@ -82,3 +82,10 @@ def get_gene_coords(file_name):
   
     
 Как видно из гистограмм, ZH-Score распределен со смещением в сторону небольших значений с некоторыми всплесками (небольшим количеством очень больших значений), но по среднему ZH-Score наиболее подверженен образованию Z-DNA является Saccharomyces eubayanus геном.  
+  
+ ### Затем, в гугл колабе создаем .bed файлы с ZH-Score
+.bed файлы находятся в [папке на гугл диске](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing)
+
+ ### Затем, в гугл колабе объединяем пересекающиеся участки Z-DNA с помощью утилиты bedtools merge
+ 
+MERGED_\*.bed файлы находятся в [папке на гугл диске](https://drive.google.com/drive/folders/1fBILsHN0vko58oxx-LklgGUbbFHdL_J_?usp=sharing)
