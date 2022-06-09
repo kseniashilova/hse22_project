@@ -256,4 +256,7 @@ indices = []
 Скриншот функций (для удобства чтения):  
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/functions.png)
 	  
+	  
+В пятом геноме ```similar to YER034W``` - hypothetical protein; non-essential gene; expression induced upon calcium shortage; protein abundance increases in response to DNA replication stress (из NCBI)
+
 **Выводы**
