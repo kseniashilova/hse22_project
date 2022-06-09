@@ -93,7 +93,9 @@ def get_gene_coords(file_name):
 Для примера я визуализировала первые несколько генов, которые пересеклись с предсказаными Z-DNA для двух геномов *Naumovozyma castellii CBS 4309* и *Saccharomyces eubayanus*.  
 Картинка показывает, что Z-DNA действительно накладываются на гены. Значит, предсказания z-hunt и пересечение сработали корректно.  
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/vis_gene_example.png)   
-![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/vis_gene_example2.png)  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/vis_gene_example2.png)   
+Приведу гистограмму, которая демонстрирует долю гена (с учетом 300bp до начала гена), где начинается предсказанная Z-DNA. То есть, на гистграмме большинство значений сосредоточено около нуля, а это означает, что большинство пересечений генов и предсказанных Z-DNA находятся в районе начала гена (промотера), так как доля гена, которая идет ДО Z-DNA близка к нулю.  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_share.png)    
 
 # Определение гомологов. Кластеризация
 С помощью ```proteinortho5``` находим гомологичные гены для всех выбранных геномов (предварительно скачиваем .faa файлы с белками). Отбираем среди получившихся кластеров гомолгичных белков те, в которых участвуют все пять геномов.  
@@ -177,3 +179,4 @@ indices = []
 ![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust9_other_ZDNA.png)
 
      
+# Множественное выравнивание с помощью ClustalW (Mega-X)  
