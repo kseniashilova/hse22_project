@@ -257,6 +257,20 @@ indices = []
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/functions.png)
 	  
 	  
-В пятом геноме ```similar to YER034W``` - hypothetical protein; non-essential gene; expression induced upon calcium shortage; protein abundance increases in response to DNA replication stress (из NCBI)
+**Во втором геноме:**  
+```YLR438W``` - L-ornithine transaminase (OTAse); catalyzes the second step of arginine degradation, expression is dually-regulated by allophanate induction and a specific arginine induction process; not nitrogen catabolite repression sensitive; protein abundance increases in response to DNA replication stress; human homolog OAT complements yeast null mutan.  
+```YOL125W``` - 2'-O-methyltransferase; responsible for modification of tRNA at position 4; C-terminal domain has similarity to Rossmann-fold (RFM) superfamily of RNA methyltransferases.  
+```YER034W``` - hypothetical protein; non-essential gene; expression induced upon calcium shortage; protein abundance increases in response to DNA replication stress.  ```YPL116W``` - Trichostatin A-insensitive homodimeric histone deacetylase (HDAC); specificity in vitro for histones H3, H4, H2A, and H2B; similar to Hda1p, Rpd3p, Hos1p, and Hos2p; deletion results in increased histone acetylation at rDNA repeats.  
+```YER002W``` - Constituent of 66S pre-ribosomal particles; involved in 60S ribosomal subunit biogenesis.  
+```YNR034W-A and YCR075W-A``` - hypothetical protein; expressed during diauxic shift and stationary phase, and negatively regulated by glucose; expression is regulated by Msn2p/Msn4p; overexpression slows down progression through meiosis and improves fermentative efficiency; YNR034W-A has a paralog, YCR075W-A, that arose from the whole genome duplication. Subunit of the EGO/GSE complex; the vacuolar/endosomal membrane associated EGO/GSE complex regulates exit from rapamycin-induced growth arrest, stimulating microautophagy and sorting of Gap1p from the endosome to the plasma membrane; identified by homology to Ashbya gossypii; EGO2 has a paralog, EGO4, that arose from the whole genome duplication.  
+```YER178W``` - E1 alpha subunit of the pyruvate dehydrogenase (PDH) complex; catalyzes the direct oxidative decarboxylation of pyruvate to acetyl-CoA; phosphorylated; regulated by glucose; PDH complex is concentrated in spots within the mitochondrial matrix, often near the ERMES complex and near peroxisomes.  
+```YFL036W``` - Mitochondrial RNA polymerase; single subunit enzyme similar to those of T3 and T7 bacteriophages; requires a specificity subunit encoded by MTF1 for promoter recognition; Mtf1p interacts with and stabilizes the Rpo41p-promoter complex, enhancing DNA bending and melting to facilitate pre-initiation open complex formation; Rpo41p also synthesizes RNA primers for mitochondrial DNA replication.  
+```YOL115W``` - Non-canonical poly(A) polymerase; involved in nuclear RNA degradation as a component of TRAMP; catalyzes polyadenylation of hypomodified tRNAs, and snoRNA and rRNA precursors; required for mRNA surveillance and maintenance of genome integrity, serving as a link between RNA and DNA metabolism; overlapping but non-redundant functions with Trf5p; relocalizes to cytosol in response to hypoxia.  
+```YML127W``` - Component of the RSC chromatin remodeling complex; DNA-binding protein involved in the synthesis of rRNA and in transcriptional repression and activation of genes regulated by the Target of Rapamycin (TOR) pathway.   
+  
+**В третьем геноме:** (Кластер 8) ```YOL115W``` - Non-canonical poly(A) polymerase; involved in nuclear RNA degradation as a component of TRAMP; catalyzes polyadenylation of hypomodified tRNAs, and snoRNA and rRNA precursors; required for mRNA surveillance and maintenance of genome integrity, serving as a link between RNA and DNA metabolism; overlapping but non-redundant functions with Trf5p; relocalizes to cytosol in response to hypoxia.  
+  
+  
+Все остальные замечания про 'similar to smth' одинаковы для гомологичных генов.
 
 **Выводы**
