@@ -182,3 +182,35 @@ indices = []
 
      
 # Множественное выравнивание с помощью ClustalW (Mega-X)  
+С помощью ClustlW алгоритма (на десктопной MEGA-X) выравниваем последовательности кластеров. В [папке](https://github.com/kseniashilova/hse22_project/tree/main/alignment) можно найти файлы с выравниваниями.  
+Получились приблизительно такие картинки (для контроля того, что выравнивание получилось корректным) - Начало выравненных последовательностей и середина.    
+**Clust 0**  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/0_start.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/0_mid.PNG)    
+**Clust 1**  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/1_start.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/1_mid.PNG)  
+**Clust 2**  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/2_start.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/2_mid.PNG)  
+**Clust 3**  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/3_start.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/3_mid.PNG)    
+**Clust 4**  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/4_start.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/4_mid.PNG)    
+**Clust 5**  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/5_start.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/5_mid.PNG)    
+**Clust 6**  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/6_start.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/6_mid.PNG)    
+**Clust 7**  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/7_start.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/7_mid.PNG)    
+**Clust 8**  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/8_start.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/8_mid.PNG)    
+**Clust 9**  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/9_start.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/9_mid.PNG)
