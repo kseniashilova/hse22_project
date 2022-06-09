@@ -94,9 +94,9 @@ def get_gene_coords(file_name):
 Картинка показывает, что Z-DNA действительно накладываются на гены. Значит, предсказания z-hunt и пересечение сработали корректно.  
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/vis_gene_example.png)   
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/vis_gene_example2.png)   
-Приведу гистограмму, которая демонстрирует долю гена (с учетом 300bp до начала гена), где начинается предсказанная Z-DNA. То есть, на гистграмме большинство значений сосредоточено около нуля, а это означает, что большинство пересечений генов и предсказанных Z-DNA находятся в районе начала гена (промотера), так как доля гена, которая идет ДО Z-DNA близка к нулю.  
-![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_share.png)    
-Интересно заметить, что есть провалы в районе долей от длины гена, равных 0.25 и 0.75. Эти участки могут соответствовать регионам гена TSS и TES.  
+Приведу гистограммы, которые демонстрируют долю гена (с учетом 300bp до начала гена), где начинается предсказанная Z-DNA. То есть, на гистограммах большинство значений сосредоточено около нуля, а это означает, что большинство пересечений генов и предсказанных Z-DNA находятся в районе начала генов (промотера), так как доля гена, которая идет ДО Z-DNA близка к нулю.  
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_share_Naumovozyma_castellii_CBS_4309.png) ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_share_Naumovozyma_dairenensis_CBS_421.png) ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_share_Saccharomyces_arboricola_H-6.png) ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_share_Saccharomyces_eubayanus.png) ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_share_Saccharomyces_paradoxus.png)      
+Интересно заметить, что на гистограммах есть провалы в районе долей от длины гена, равных 0.25 и 0.75. Эти участки могут соответствовать регионам гена TSS и TES.  
 Можно предположить, что Z-DNA мешает транскрипции на этих участках.  
 
 # Определение гомологов. Кластеризация
