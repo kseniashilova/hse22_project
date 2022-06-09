@@ -214,3 +214,6 @@ indices = []
 **Clust 9**  
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/9_start.PNG)
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/alignment_pictures/9_mid.PNG)
+  
+    
+    Как можно видеть на картинках выше, выравнивание прошло успешно. В принципе, несмотря на то, что различий в аминокислотах много, похожие участки все равно хорошо прослеживаются.  
