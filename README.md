@@ -148,16 +148,32 @@ indices = []
 # Визуализация десяти кластеров *DNA Features Viewer*  (ZH-Scores обозначены в заголовке картинок).   
 В [папке](https://github.com/kseniashilova/hse22_project/tree/main/clusts) находятся картинки с визуализацией пересечения Z-DNA и генов из кластера, а также файлы в формате .faa для множественного выравнивания.  
 ### Визуализация кластеров и ассоциированных предсказанных Z-DNA с пересечением с генами в районе промотера:  
-<img src='https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust0.png' alt="drawing" width="500"/> <img src='https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust1.png' alt="drawing" width="500"/>  
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust0.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust1.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust2.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust3.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust4.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust5.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust6.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust7.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust8.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust9.png)
 
-<img src='https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust2.png' alt="drawing" width="500"/> <img src='https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust3.png' alt="drawing" width="500"/>  
 
-<img src='https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust4.png' alt="drawing" width="500"/> <img src='https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust5.png' alt="drawing" width="500"/>
-
-<img src='https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust6.png' alt="drawing" width="500"/> <img src='https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust7.png' alt="drawing" width="500"/>  
-
-<img src='https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust8.png' alt="drawing" width="500"/> <img src='https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust9.png' alt="drawing" width="500"/>    
   
-  Хотя на некоторых картинках и кажется, что в гомологичных генах координаты одинаковы, но на самом деле они отличаются. Это можно увидеть в таблице выше (10 столбцов в конце содержат координаты генов и Z-DNA, по которым строилась визуализация пересечения).  
+  Хотя на некоторых картинках и кажется, что в гомологичных генах координаты одинаковы, но на самом деле они отличаются. Это можно увидеть в таблице выше (10 столбцов в конце содержат координаты генов и Z-DNA, по которым строилась визуализация пересечения).    
+    
+   
+Рассмотрим похожую визуализацию, но со всеми предсказанными Z-DNA (Не только на пересечении с промотером):   
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust0_other_ZDNA.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust1_other_ZDNA.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust2_other_ZDNA.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust3_other_ZDNA.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust4_other_ZDNA.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust5_other_ZDNA.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust6_other_ZDNA.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust7_other_ZDNA.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust8_other_ZDNA.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/clusts/clust9_other_ZDNA.png)
 
      
