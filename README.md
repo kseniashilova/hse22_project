@@ -273,4 +273,16 @@ indices = []
   
 Все остальные замечания про 'similar to smth' одинаковы для гомологичных генов.
 
+  
+# G-квадруплексы 
+
+|***Species***|***Amount of G-quads***|***Overal length***|***Mean length***|***Mean Score***|
+|:---|:---|---|---|---|
+|Saccharomyces arboricola H-6|74|1597|21.58|67.3|
+|Saccharomyces eubayanus|115|2682|23.3|63.2|
+|Saccharomyces paradoxus|110|2523|22.9|64.7|
+|Naumovozyma castellii CBS 4309| 50 | 1145 | 22.9| 65.32|
+|Naumovozyma dairenensis CBS 421| 176 |3528| 20.05|68.6|
+
+
 **Выводы**
