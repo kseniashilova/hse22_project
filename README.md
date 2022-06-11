@@ -319,5 +319,11 @@ indices = []
   
 При добавлении других кластеров (с участием только 4 из 5 геномов) тоже остаются подходящими только 2 кластера из 5507, которые сформировала программа ```proteinortho5```.  Значит, будем анализировать два этих кластера.  
 Визуализация расположения квадруплексов на генах из выбранных кластеров:  
-![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/vis_clust0.png) ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/vis_clust1.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/vis_clust0.png) ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/vis_clust1.png)    
+Функции генов в таблице ниже:  
+|index|Note\_GCA_000237345.1.faa|Note\_GCA_000227115.2.faa|Note\_GCA_000292725.1.faa|Note\_GCA_001298625.1.faa|Note\_GCA_002079055.1.faa|
+|---|---|---|---|---|---|
+|0|                     ancestral locus Anc\_4.14|                     similar to Saccharomyces cerevisiae VPS13                     \(YLL040C); ancestral locus Anc_4.14|                     similar to Saccharomyces cerevisiae VPS13                     \(YLL040C)|                     ancestor homolog: Anc\_4.14; saccharomyces                     cerevisiae ortholog: YLL040C|                     Protein involved in prospore membrane                     morphogenesis;                     similar to YLL040C|
+|1|                     ancestral locus Anc\_2.125|                     similar to Saccharomyces cerevisiae RLR1 \(YNL139C);                     ancestral locus Anc_2.125|                     similar to Saccharomyces cerevisiae RLR1 \(YNL139C)|                     ancestor homolog: Anc\_2.125; saccharomyces                     cerevisiae ortholog: YNL139C|                     Subunit of the THO complex;                     similar to YNL139C|  
+  
 **Выводы**
