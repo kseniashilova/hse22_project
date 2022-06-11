@@ -274,7 +274,12 @@ indices = []
 Все остальные замечания про 'similar to smth' одинаковы для гомологичных генов.
 
   
-# G-квадруплексы 
+# G-квадруплексы   
+  
+С помощью программы ```pqsfinder``` обработаем последовательности fasta файлов для тех же геномов и проанализируем предсказанные G-квадруплексы.  
+Код запуска ```pqsfinder``` на **R** можно посмотреть в [гугл ноутбуке](https://colab.research.google.com/drive/1vkTcgQBPDg0ZHQJTi3rgFe-JoBdgyr_Z?usp=sharing). Файлы, полученных с помощью этого кода лежат в этом репозитории в [папке quadruplex](https://github.com/kseniashilova/hse22_project/tree/main/quadruplex).  
+Анализ можно посмотреть в одном из последних разделов [ноутбука на Python](https://colab.research.google.com/drive/11b1BL_f25FrO5hvJILbK9jBONOEhGlox?usp=sharing) (все же в Python привычнее и удобнее делать анализ файлов и строить таблицы и графики).   
+Таблица ниже показывает количество предсказанных G-квадруплексов, их суммарную длину, среднюю длину и средний Score (из результата работы ```pqsfinder```).  
 
 |***Species***|***Amount of G-quads***|***Overal length***|***Mean length***|***Mean Score***|
 |:---|:---|---|---|---|
@@ -283,7 +288,9 @@ indices = []
 |Saccharomyces paradoxus|110|2523|22.9|64.7|
 |Naumovozyma castellii CBS 4309| 50 | 1145 | 22.9| 65.32|
 |Naumovozyma dairenensis CBS 421| 176 |3528| 20.05|68.6|
-
+  
+  
+Графики показывают распределение Score из результата предсказания квадруплексов для пяти геномов.  
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_score_quad_Naumovozyma%20castellii%20CBS%204309.png) 
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_score_quad_Naumovozyma%20dairenensis%20CBS%20421.png)
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_score_quad_Saccharomyces%20arboricola%20H-6.png)
@@ -291,7 +298,7 @@ indices = []
 ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_score_quad_Saccharomyces%20paradoxus.png)    
     
       
- Пример вищуализации первых десяти пересечений для двух геномов (*Saccharomyces_eubayanus* и *Naumovozyma_castellii_CBS_4309*):  
+ Пример визуализации первых десяти пересечений для двух геномов (*Saccharomyces_eubayanus* и *Naumovozyma_castellii_CBS_4309*):  
  ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_example.png)  
  ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_example2.png)    
      
