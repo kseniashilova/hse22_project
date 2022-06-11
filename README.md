@@ -293,5 +293,12 @@ indices = []
       
  Пример вищуализации первых десяти пересечений для двух геномов (*Saccharomyces_eubayanus* и *Naumovozyma_castellii_CBS_4309*):  
  ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_example.png)  
- ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_example2.png)
+ ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_example2.png)    
+     
+  Гистограммы ниже показывают долю гена, которая идет ДО момента старта предсказанного квадруплекса. То есть, из-за того, что по горизонтальной оси располагается доля гена (координата от старта, нормированная на длину), то и значения там от 0 до 1. По вертикальной оси количество предсказанных G-квадруплексов, которые начинаются на определенной координате от начала гена. На гистограммах заметно, что большинство квадруплексов начинаются в начале гена (доля длины ДО квадруплекса близка к нулю - самый высокий столбец на некоторых диаграммах), а это означает, что и большинство квадруплексов располагаются в районе промотера.    
+  ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_hist_share_Naumovozyma_castellii_CBS_4309.png) 
+  ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_hist_share_Naumovozyma_dairenensis_CBS_421.png) 
+  ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_hist_share_Saccharomyces_arboricola_H-6.png) 
+  ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_hist_share_Saccharomyces_eubayanus.png) ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_hist_share_Saccharomyces_paradoxus.png)    
+  Нужно заметить, что для первого генома (и для третьего в какой-то степени) плозо соблюдается правило всплекса в райноре промотера. Для них наибольшее число предсказанных G-квадруплексов находятся где-то в середине генов (могут быть совершенно разные участки, для более качественного анализа нужно посмотреть на аннотации генов как в одном из предыдущих ДЗ).  
 **Выводы**
