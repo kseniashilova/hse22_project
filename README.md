@@ -284,5 +284,14 @@ indices = []
 |Naumovozyma castellii CBS 4309| 50 | 1145 | 22.9| 65.32|
 |Naumovozyma dairenensis CBS 421| 176 |3528| 20.05|68.6|
 
-
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_score_quad_Naumovozyma%20castellii%20CBS%204309.png) 
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_score_quad_Naumovozyma%20dairenensis%20CBS%20421.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_score_quad_Saccharomyces%20arboricola%20H-6.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_score_quad_Saccharomyces%20eubayanus.png)
+![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/hist_score_quad_Saccharomyces%20paradoxus.png)    
+    
+      
+ Пример вищуализации первых десяти пересечений для двух геномов (*Saccharomyces_eubayanus* и *Naumovozyma_castellii_CBS_4309*):  
+ ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_example.png)  
+ ![](https://github.com/kseniashilova/hse22_project/blob/main/pictures/quad_example2.png)
 **Выводы**
