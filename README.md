@@ -325,5 +325,9 @@ indices = []
 |---|---|---|---|---|---|
 |0|                     ancestral locus Anc\_4.14|                     similar to Saccharomyces cerevisiae VPS13                     \(YLL040C); ancestral locus Anc_4.14|                     similar to Saccharomyces cerevisiae VPS13                     \(YLL040C)|                     ancestor homolog: Anc\_4.14; saccharomyces                     cerevisiae ortholog: YLL040C|                     Protein involved in prospore membrane                     morphogenesis;                     similar to YLL040C|
 |1|                     ancestral locus Anc\_2.125|                     similar to Saccharomyces cerevisiae RLR1 \(YNL139C);                     ancestral locus Anc_2.125|                     similar to Saccharomyces cerevisiae RLR1 \(YNL139C)|                     ancestor homolog: Anc\_2.125; saccharomyces                     cerevisiae ortholog: YNL139C|                     Subunit of the THO complex;                     similar to YNL139C|  
-  
+   
+Выравнивание последовательностей из двух кластеров:  
+Выравнивание прошло успешно, файлы, которые содержат выравнивание для двух кластеров лежат в [папке этого репозитория](https://github.com/kseniashilova/hse22_project/tree/main/quadruplex/alignment).  Картинки ниже показывают приблизительный вид выравниваний.  
+![](https://github.com/kseniashilova/hse22_project/blob/main/quadruplex/alignment/clust0.PNG)
+![](https://github.com/kseniashilova/hse22_project/blob/main/quadruplex/alignment/clust1.PNG)    
 **Выводы**
