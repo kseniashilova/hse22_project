@@ -330,4 +330,5 @@ indices = []
 Выравнивание прошло успешно, файлы, которые содержат выравнивание для двух кластеров лежат в [папке этого репозитория](https://github.com/kseniashilova/hse22_project/tree/main/quadruplex/alignment).  Картинки ниже показывают приблизительный вид выравниваний.  
 ![](https://github.com/kseniashilova/hse22_project/blob/main/quadruplex/alignment/clust0.PNG)
 ![](https://github.com/kseniashilova/hse22_project/blob/main/quadruplex/alignment/clust1.PNG)    
-**Выводы**
+**Выводы**  
+Расскажем на защите группового проекта биологическую интерпретацию
